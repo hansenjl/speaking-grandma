@@ -9,5 +9,18 @@
 
 # NO, NOT SINCE 1938!
 
-# However if you say 'I LOVE YOU GRANDMA!', she should respond with
+# However if you say v, she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+
+def speak_to_grandma(phrase)
+    # if phrase is equal to 'I LOVE YOU GRANDMA!'
+    if phrase == 'I LOVE YOU GRANDMA!'
+        'I LOVE YOU TOO PUMPKIN!'
+    elsif phrase == phrase.upcase
+        'NO, NOT SINCE 1938!'
+    else  # DOES NOT READ WHAT IS RIGHT HERE  
+        'HUH?! SPEAK UP, SONNY!'
+    end
+       
+end
